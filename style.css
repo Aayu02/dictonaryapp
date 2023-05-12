@@ -4,12 +4,14 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background: url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
-    background-color: rgba(255,255,255, .3);
+    background-color: rgba(255,255,255, .6);
     padding: 28px;
     border-radius: 7px;
     box-shadow: 0 10px 10px rgba(0,0,0,.3);
@@ -38,3 +40,25 @@ body{
 .meaning-container{
     display: none;
 }
+footer
+{
+   color: #5e5656;
+   margin-top: 200px;
+   
+   
+   
+
+}
+footer h4{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+footer h4 a{
+    text-decoration: none;
+}
+
+
+ 
+ 
